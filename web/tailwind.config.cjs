@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.tsx"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: "Inter",
+      },
       colors: {
         background: "#09090A",
       },
