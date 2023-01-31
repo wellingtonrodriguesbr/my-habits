@@ -12,7 +12,7 @@ export function CreateHabitDialog() {
         <button
           type="button"
           onClick={() => setOpenDialog(true)}
-          className="border border-violet-500 font-semibold rounded-lg px-6 py-4 text-white flex gap-3 items-center hover:border-violet-700 transition-colors"
+          className="border border-violet-500 font-semibold rounded-lg px-6 py-4 text-white flex gap-3 items-center hover:border-violet-700 transition-colors focus:outline-none focus:ring-2 focus:ring-violet-500 focus:ring-offset-2 focus:ring-offset-background"
         >
           <Plus size={20} className="text-violet-500" />
           Novo hábito

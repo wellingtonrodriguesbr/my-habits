@@ -80,7 +80,7 @@ export function NewHabitForm({ setOpenDialog }: NewHbitFormProps) {
             checked={weekDays.includes(index)}
             onCheckedChange={() => handleToggleWeekDay(index)}
           >
-            <div className="w-8 h-8 rounded-lg flex items-center justify-center bg-zinc-900 border-2 border-zinc-800 group-data-[state=checked]:border-green-700 group-data-[state=checked]:bg-green-500 transition-colors">
+            <div className="w-8 h-8 rounded-lg flex items-center justify-center bg-zinc-900 border-2 border-zinc-800 group-data-[state=checked]:border-green-700 group-data-[state=checked]:bg-green-500 transition-colors duration-700">
               <Checkbox.Indicator>
                 <Check size={20} weight="bold" className="text-white" />
               </Checkbox.Indicator>
@@ -92,7 +92,7 @@ export function NewHabitForm({ setOpenDialog }: NewHbitFormProps) {
 
       <button
         type="submit"
-        className="w-full flex items-center justify-center uppercase gap-3 text-white font-bold bg-green-600 p-4 mt-6 hover:bg-green-500 rounded-lg"
+        className="w-full flex items-center justify-center uppercase gap-3 text-white font-bold bg-green-600 p-4 mt-6 hover:bg-green-500 rounded-lg transition-colors"
       >
         <Check size={20} weight="bold" />
         Confirmar
